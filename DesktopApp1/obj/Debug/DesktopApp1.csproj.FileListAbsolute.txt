@@ -1,0 +1,14 @@
+C:\Users\s2vufkb\source\repos\DesktopApp1\DesktopApp1\obj\Debug\DesktopApp1.csprojAssemblyReference.cache
+C:\Users\s2vufkb\source\repos\DesktopApp1\DesktopApp1\obj\Debug\DesktopApp1.Form1.resources
+C:\Users\s2vufkb\source\repos\DesktopApp1\DesktopApp1\obj\Debug\DesktopApp1.csproj.GenerateResource.cache
+C:\Users\s2vufkb\source\repos\DesktopApp1\DesktopApp1\obj\Debug\DesktopApp1.csproj.CoreCompileInputs.cache
+C:\Users\s2vufkb\source\repos\DesktopApp1\DesktopApp1\bin\Debug\Okey Event.exe.config
+C:\Users\s2vufkb\source\repos\DesktopApp1\DesktopApp1\bin\Debug\Okey Event.exe
+C:\Users\s2vufkb\source\repos\DesktopApp1\DesktopApp1\bin\Debug\Okey Event.pdb
+C:\Users\s2vufkb\source\repos\DesktopApp1\DesktopApp1\obj\Debug\OkeyEvent.Properties.Resources.resources
+C:\Users\s2vufkb\source\repos\DesktopApp1\DesktopApp1\obj\Debug\Okey Event.exe
+C:\Users\s2vufkb\source\repos\DesktopApp1\DesktopApp1\obj\Debug\Okey Event.pdb
+C:\Users\s2vufkb\source\repos\DesktopApp1\DesktopApp1\bin\Debug\Okey Event.exe.manifest
+C:\Users\s2vufkb\source\repos\DesktopApp1\DesktopApp1\bin\Debug\Okey Event.application
+C:\Users\s2vufkb\source\repos\DesktopApp1\DesktopApp1\obj\Debug\Okey Event.exe.manifest
+C:\Users\s2vufkb\source\repos\DesktopApp1\DesktopApp1\obj\Debug\Okey Event.application

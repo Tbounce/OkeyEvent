@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Okey Event.exe" version="1.0.0.1" publicKeyToken="a1d653d6c4e919dc" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Okey Event" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Okey Event.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Okey Event.exe" size="53696">
+      <assemblyIdentity name="Okey Event" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ETdIYLXpoaH1ge3wUlDRd0Q600aX4X98HypfILYGwpE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Okey Event.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5uxYCpg20wkXYrXpexMeiHN/jXUA+2k5aUq2lzOmQCA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DEAUDI00\S2VUFKB" issuerKeyHash="6ae795d83ee37e3b770d9b3264b1b449f2c21737" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ghntLqUKuaCVpfkYXTa28z8X9GGusRL62q0p47d4Zbw=</DigestValue></Reference></SignedInfo><SignatureValue>Q3R9WN1N3ogvHvcoEKlSQMVCczDBZr2YDzKEx7t0mGptfwkIwhcJBOTXI++wkdBIeJZsea1yiF8yTH8wxnvCyY/Lg5I5OIyzJ2HxqF8Uc+pluSwqbTzVNUYekNvGUkkRB3hGjX7W/CJq0ESH93RIWSPJT6Xw0PkKS7EmVghLntI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>x/lqfNg823Byfp6QxAK4HG3R/NNx7aXBWENO6THWf1g44bgRTgrYvozoVGRv8xiOhjE/1750kwA705yurSHt06e9B/bxOg5Juudpi+L8LlZYtCoLsM84VbqU4k2xLuZmues/msl9TxRig0LtVIfWJM7MDKlj7iwIxB5qZfa4nj0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bc6578b7e329addafa12b1ae61f4173ff3b6365d18f9a595a0b90aa52eed1982" Description="" Url=""><as:assemblyIdentity name="Okey Event.exe" version="1.0.0.1" publicKeyToken="a1d653d6c4e919dc" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DEAUDI00\S2VUFKB</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>I2zbENt5C3eCWjUrYoxGaIxLkyk2GKPyBTNV4K3YtCY=</DigestValue></Reference></SignedInfo><SignatureValue>UmMGE8zBDc2mDYfW0y3RqcpvuFqWKyvXexQf7l4bcuYuVJkYXpNBkeeBb8FgB5z3/AIjyqfNzBtBbUin3Gp304Iv2FdskrD1I38FML9kJJBmjikqjR/y59HXlx/kn8CrDbkS2nlb+2qcR+khbeS7ASPcTCD/hBeYEUnSYtv6gxo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>x/lqfNg823Byfp6QxAK4HG3R/NNx7aXBWENO6THWf1g44bgRTgrYvozoVGRv8xiOhjE/1750kwA705yurSHt06e9B/bxOg5Juudpi+L8LlZYtCoLsM84VbqU4k2xLuZmues/msl9TxRig0LtVIfWJM7MDKlj7iwIxB5qZfa4nj0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQOCJAZfS6gLFBOzgSsxzlCDANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAARABFAEEAVQBEAEkAMAAwAFwAUwAyAFYAVQBGAEsAQjAeFw0yMDEyMDQxMTQ3NTNaFw0yMTEyMDQxNzQ3NTNaMCsxKTAnBgNVBAMeIABEAEUAQQBVAEQASQAwADAAXABTADIAVgBVAEYASwBCMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDH+Wp82DzbcHJ+npDEArgcbdH803HtpcFYQ07pMdZ/WDjhuBFOCti+jOhUZG/zGI6GMT/XvnSTADvTnK6tIe3Tp70H9vE6Dkm652mL4vwuVli0KguwzzhVupTiTbEu5ma56z+ayX1PFGKDQu1Uh9YkzswMqWPuLAjEHmpl9riePQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABHmjy8ogp1FddX/t0Xfnm8QQlPYGNclZ0AeGkvR+tlFzybuF0YdSKTozOdgoaTcrsWY+awCnhp+1xea2urdehTJnn8qxm8NyOZQsxe5rXs+qXN/j2EZH1wMdIYWk43kOea7f3kYR5xe1x3Mc98KBr1z3ECFWEwBQ7nTT5V5Pp/C</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
